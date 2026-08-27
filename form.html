@@ -1,0 +1,79 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Student Sports Registration</title>
+</head>
+
+<body>
+  <h1 align ="center">Student Sports Registration</h1>
+  <form action="/register" method="POST" enctype="multipart/form-data">
+    <fieldset>
+
+  </form>
+</body>
+
+<legend>Personal Information</legend><br>
+
+<label for="name">Full Name</label><br><br>
+<input type="text" id="name" name="fullname" required minlength="4"><br><br>
+
+<label for="email">Email</label><br>
+<input type="email" id="email "name="email" required><br><br>
+
+<label for="phone">Phone</label><br>
+<input type="text" id="Phone" name="Phone" title="Enter a 10 digit number" required><br><br>
+
+<label for="password">Password</label><br>
+<input type="password" id="password" name="password" required minlength="6"><br><br>
+
+</legend>
+</fieldset>
+<fieldset>
+  <legend>
+    Gender
+  </legend>
+  <input type="radio" id="m" name="gender" value="male">
+  <label for="m">Male</label>
+  <input type="radio" id="f" name="gender" value="female">
+  <label for="f">Female</label>
+ 
+</fieldset><br>
+<label for="age">Age:</label><br> <br>
+<select  name="age"> 
+<option value="">Select Age</option> 
+<option value="17">17</option> 
+<option value="18">18</option> 
+<option value="19">19</option> 
+<option value="20">20</option> 
+<option value="21">21+</option 
+</select><br><br>
+
+<select name="course" id="course"><br><br>
+<label for="course">Course</label>
+<select id="course" name="Course">
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="BSC">BSC</option>
+<option value="Btech">Btech</option>
+</select><br><br>
+
+
+<button	type="submit">Register</button>
+ 
+
+</html> 
+
+
+
+
+
+
+
+
+
+ 
