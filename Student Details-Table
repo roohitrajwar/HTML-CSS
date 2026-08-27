@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>hello</title>
+</head>
+
+<body>
+  <h1 align="center"> 
+ Details of Students
+  </h1>
+<table border="2" cellpadding="10" cellspacing="0" align="center">
+    <thead>
+     <tr>
+        <th colspan="4">Student Details</th>
+        </tr>
+       
+
+      <tr>
+        <th>Sap id</th>
+        <th>Name</th>
+        <th>College Name</th>
+        <th>Age</th>
+       
+     
+
+     </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>24408</td>
+            <td>Rohan</td>
+            <td>NYC College</td>
+            <td>20</td>
+          
+        </tr>
+
+        <tr>
+            <td>24567</td>
+            <td>Jitu</td>
+            <td>UT University</td>
+            <td>22</td>
+            
+            </tr>   
+        <tr>
+            <td>24564</td>
+            <td>Preet</td>
+            <td>Graphic Era University</td>
+            <td>22</td>
+          
+            </tr>   
+            <tr>
+              <td colspan="2">city</td>
+              <td colspan="2">Dehradun</td>
+            </tr>
+    </tbody>
+</table>
+ 
+</body>
+
+</html>
